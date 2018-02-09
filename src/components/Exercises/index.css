@@ -1,0 +1,61 @@
+.exercises {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.exercise {
+  border: 1px solid #238AD2;
+  box-sizing: border-box;
+  color: #238AD2;
+  display: block;
+  font-size: 17px;
+  margin: 16px;
+  outline: none;
+  padding: 8px;
+  width: 250px;
+}
+
+.exercise:hover {
+  background: #238AD2;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.title {
+  color: #238ada;
+  margin: 8px 0;
+}
+
+.close {
+  background-color: #fff;
+  border: 1px solid #da2323;
+  border-radius: 50%;
+  bottom: 82%;
+  color: #da2323;
+  font-size: 13px;
+  outline: none;
+  padding: 4px 8px;
+  position: fixed;
+  right: 3%;
+}
+
+.close:hover {
+  background-color: #da2323;
+  color: #fff;
+}
+
+.muscleGroup {
+  color: grey;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.description {
+  color: #5f5f5f;
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 10px 0;
+  margin-top: 15px;
+}
